@@ -6,7 +6,7 @@ Marks all changes as executed in the database
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/changelog-sync@v4.29.0
+- uses: liquibase-github-actions/changelog-sync@v4.29.1
   with:
     # The root changelog file
     # string
@@ -70,7 +70,7 @@ The liquibase changelog sync action accepts all valid liquibase global options a
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/changelog-sync@v4.29.0
+  - uses: liquibase-github-actions/changelog-sync@v4.29.1
     with:
       changelogFile: ""
       url: ""
